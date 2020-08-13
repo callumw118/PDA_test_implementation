@@ -14,18 +14,18 @@ class CardGame:
     else  # Missing :
       return false # false requires capitalisation
 
-  dif highest_card(self, card1 card2) # dif should be def and missing comma between card1 and card2
+  dif highest_card(self, card1 card2) # dif should be def and missing comma between card1 and card2. Also missing : at end of function
     if card1.value > card2.value # Missing :
       return card # card not defined, should probably be card1
     else  # Missing :
       return card2
  
 
- def cards_total(cards): # Requires self in function parameters
+ def cards_total(cards): # Requires self in function parameters and needs to be tabbed in
    total # total not set to a value
    for card in cards:
      total += card.value # Remove card.value and replace with 1
-     return "You have a total of" + total # return should be outside of for loop
+     return "You have a total of" + total # Should be outside of for loop and be string formatted
 
 
 ```
